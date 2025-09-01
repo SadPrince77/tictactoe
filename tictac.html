@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div  class="container">
+        
+            <h1>Tic Tac Toe</h1>
+        
+
+        <div class="box current-player">
+            <p>Current Player: <span class="turn"></span></p>
+        </div>
+
+        <div class="box score-card">
+         <div class="x">
+            Player:X
+            <p class="win-time">0</p>
+        </div>
+         <div class="d">
+            Draws
+            <p class="win-time">0</p>
+        </div>
+         <div class="o">
+            Player:O
+            <p class="win-time">0</p>
+
+         </div>   
+        </div>
+
+        <div class="box game">
+            <div class="buton" id="board">
+            <button class="buttons" id="0"></button>
+            <button class="buttons" id="1"></button>
+            <button class="buttons" id="2"></button>
+            </div>
+            <div class="buton">
+            <button class="buttons" id="3"></button>
+            <button class="buttons" id="4"></button>
+            <button class="buttons" id="5"></button>
+            </div>
+            <div class="buton">
+            <button class="buttons" id="6"></button>
+            <button class="buttons" id="7"></button>
+            <button class="buttons" id="8"></button>
+            </div>
+        </div>
+
+        <div class="game-buton">
+            <button onclick="newGame()" class="new">New Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

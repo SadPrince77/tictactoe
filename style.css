@@ -1,0 +1,88 @@
+
+body {
+    background-color: #a7a0fd;
+    /* background: linear-gradient(45deg, #fcb1fc ,  #a7a0fd ); */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-family: cursive;
+}
+h1 {
+    color: red;
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 20px;
+    box-shadow: 0 0 16px rgba(0,0,0,0.9);
+    border-radius: 1rem; 
+    text-align: center;
+    height: 750px;
+    width: 350px;
+    align-items: center;
+    justify-content: center;
+}
+.current-player {
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.score-card {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 9px;
+    padding-top: 25px;
+}
+.box {
+    background-color: rgba(255,255,255,0.08);
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border: 1px solid #9084c9;
+}
+.game {
+    padding: 8px;
+    flex-wrap: wrap;
+}
+.buton {
+    padding: 5px;
+    margin-top: -6px;
+}
+button {
+    padding: 45px;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.x {
+    color: red;
+    font-weight: bold;
+}
+.o {
+    color: aqua;
+    font-weight: bold;
+}
+.d {
+    color: white;
+    font-weight: bold;
+}
+.new {
+    padding: 10px;
+    width: 120px;
+    margin-top: 20px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+span {
+    color: red;
+}
+.win-time {
+    font-size: 30px;
+}
